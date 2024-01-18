@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class UserProfileHeader extends StatelessWidget {
-  const UserProfileHeader({super.key});
-
+    String name;
+    UserProfileHeader({required this.name});
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -24,8 +24,8 @@ class UserProfileHeader extends StatelessWidget {
         const SizedBox(
           height: 24,
         ),
-        const Text(
-          "Maharah",
+          Text(
+           name,
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 24,

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:maharah_project/user_profile/user_profile_screen.dart';
+import 'package:maharah_project/main_page/main_page.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+         MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UserProfileScreen(),
+      home:
+      mainPage()
     ),
   );
 }
